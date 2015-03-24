@@ -1,0 +1,131 @@
+* {margin:0;padding:0 box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Lato', sans-serif;
+text-align:center;
+}
+body{
+	font-family:'Lato', sans-serif;
+	background:url('../images/yoga.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+div header {
+	padding: .5em 3.5em;
+	position:fixed;
+	float:left;
+	z-index:+1;
+}
+#splash {
+	padding-top: 1em;
+	padding-left: 1em;
+	height:100vh;
+}
+
+div nav {
+	width:45%;
+	position:relative;
+	text-align:center;
+	vertical-align:right;
+	float:right;
+	padding: 1em;
+	top:0em;
+	background-color:#000;
+	z-index:0;
+}
+.nav ul{
+	list-style:none;
+	background-color:rgba(25, 26, 28, 0.85);;
+	text-align:center;
+	padding-left:50em;
+	margin:0;
+}
+.nav li{
+	line-height:40px;
+	height:40px;
+}
+nav a{
+	text-decoration:none;
+	color:#f6f6f6;
+	padding: .5em;
+	margin:1em;
+}
+nav a:hover {
+	border:.1em solid #545454;
+	font-weight:bold;
+	font-family: 'Allura', lucida;
+	font-weight:bold;
+	color:#f6f6f6:;
+	font-size:1.5em;
+}
+section#about {
+	background-color:rgba(0, 3, 0, 0.85);
+	padding:4em;
+}
+section#about div{
+	background-color:rgba(25, 26, 28, 0.5);
+	color:#fff;
+	margin: 0% 0 0% 20%;
+	padding:3em 3em;
+	max-width: 25em;
+	z-index:-1;
+	width:75%;
+}
+#offerings {
+	margin:0 auto;
+	max-width: 75em;
+}
+h1{
+	font-family: 'Allura', lucida;
+	font-size:1.75em;
+}
+p{
+	line-height:1.25em;
+	text-align:justify;
+	padding: 1em;
+}
+.columns{
+	padding:2em;
+	float:left;
+	background-color: rgba(0, 3, 0, 0.85);
+	color:#f6f6f6;
+	margin:5em 1em;
+	width:25%;
+	text-align:justify;
+
+}
+.columns a {
+	display:inline-block;
+	padding:.5em;
+	text-decoration:none;
+	color:#f6f6f6;
+}
+.columns a:hover:{
+	background-color:#fff;
+	box-sizing:border-box;
+	border-radius:50%;
+	font-weight:bold;
+	font-family: 'Allura', lucida;
+	font-weight:bold;
+	color:#3f3f3f;
+	font-size:1.5em;
+}
+img {
+	border-radius:50%;
+	text-align:center;
+}
+footer { 
+    display: block;
+    background-color:#000;
+    height: 2.5em;
+    bottom:0em;
+    width:100%;
+    padding:.25;
+   	position:fixed;
+    text-align:center;
+}
+footer a{
+ 	color:#f6f6f6;
+    text-decoration:none;
+    font-family: 'Allura', lucida;
+}
